@@ -1,0 +1,7 @@
+/* Hide original textarea */
+textarea#AssemblerInput {
+	display: none;
+}
+
+/* Align left */
+.CodeMirror { text-align: left; }
