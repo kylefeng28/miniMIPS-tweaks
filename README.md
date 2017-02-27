@@ -13,7 +13,9 @@ F5: Memory Dump
 F6: Output Trace
 ```
 
-Use at your own peril.
+![](screenshot.png)
+
+Disclaimer: Not thoroughly tested. Use at your own peril.
 
 ## Sources:
 - Extension template from: https://gist.github.com/danharper/8364399
