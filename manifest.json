@@ -18,8 +18,8 @@
 		"default_title": "miniMIPS Tweaks!"
 	},
 	"permissions": [
-		"https://*/*",
-		"http://*/*",
+		"http://wwwx.cs.unc.edu/Courses/comp411-002-s17/tools/mips.html",
+		"https://gb.cs.unc.edu/mypoll/questions/*",
 		"activeTab"
 	]
 }

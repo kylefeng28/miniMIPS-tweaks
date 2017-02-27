@@ -18,7 +18,6 @@ function injectCodeMirror() {
 
 function injectKeyListener() {
 	document.body.addEventListener("keydown", function(e) {
-		console.log(e.key);
 		switch (e.key) {
 			case "F1": document.getElementById("AssembleButton").click(); break;
 			case "F2": document.getElementById("ResetButton").click();
