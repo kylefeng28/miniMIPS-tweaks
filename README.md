@@ -1,6 +1,6 @@
 # miniMIPS/miniARM Tweaks
 
-Prettifies [miniMIPS](http://wwwx.cs.unc.edu/Courses/comp411-002-s17/tools/mips.html) and [miniARM](http://www.csbio.unc.edu/mcmillan/miniARM.html), with keyboard shortcuts.
+Chrome extension that prettifies [miniMIPS](http://wwwx.cs.unc.edu/Courses/comp411-002-s17/tools/mips.html) and [miniARM](http://www.csbio.unc.edu/mcmillan/miniARM.html), with keyboard shortcuts.
 
 Uses [CodeMirror](https://codemirror.net/) 5.41.0 for syntax highlighting.
 
@@ -15,7 +15,9 @@ F5: Memory Dump
 F6: Output Trace
 ```
 
-![](screenshot.png)
+![](screenshot_miniMIPS.png)
+
+![](screenshot_miniARM.png)
 
 Disclaimer: Not thoroughly tested. Use at your own peril.
 
