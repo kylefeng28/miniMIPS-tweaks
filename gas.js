@@ -23,7 +23,7 @@ CodeMirror.defineMode("gas", function(_config, parserConfig) {
   // architecture.
   // If no architecture is pased in "parserConfig" then only multiline
   // comments will have syntax support.
-  var lineCommentStartSymbol = "";
+  var lineCommentStartSymbol = ";";
 
   // These directives are architecture independent.
   // Machine specific directives should go in their respective
@@ -143,8 +143,6 @@ CodeMirror.defineMode("gas", function(_config, parserConfig) {
   var keywords = {};
 
   function x86(_parserConfig) {
-    lineCommentStartSymbol = "#";
-
     keywords.ax  = "variable";
     keywords.eax = "variable-2";
     keywords.rax = "variable-3";
@@ -193,7 +191,6 @@ CodeMirror.defineMode("gas", function(_config, parserConfig) {
     // Reference:
     // http://infocenter.arm.com/help/topic/com.arm.doc.qrc0001l/QRC0001_UAL.pdf
     // http://infocenter.arm.com/help/topic/com.arm.doc.ddi0301h/DDI0301H_arm1176jzfs_r0p7_trm.pdf
-    lineCommentStartSymbol = "@";
     directives.syntax = "builtin";
 
     keywords.r0  = "variable-2";
