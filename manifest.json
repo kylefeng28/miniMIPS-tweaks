@@ -1,6 +1,6 @@
 {
 	"name": "miniMIPS Tweaks",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"manifest_version": 2,
 	"description": "Prettifies miniMIPS with CodeMirror and syntax highlighting",
 	"homepage_url": "http://kylefeng28.github.io",
@@ -8,9 +8,9 @@
 		{
 			"matches": [
 				"http://wwwx.cs.unc.edu/Courses/comp411-002-s17/tools/mips.html",
-				"https://gb.cs.unc.edu/mypoll/questions/*"
+				"http://www.csbio.unc.edu/mcmillan/miniARM.html"
 			],
-			"js": [ "codemirror.min.js", "mipsasm.js", "inject.js" ],
+			"js": [ "codemirror.min.js", "mipsasm.js", "gas.js", "inject.js" ],
 			"css": [ "codemirror.min.css", "styles.css" ]
 		}
 	],
@@ -19,7 +19,7 @@
 	},
 	"permissions": [
 		"http://wwwx.cs.unc.edu/Courses/comp411-002-s17/tools/mips.html",
-		"https://gb.cs.unc.edu/mypoll/questions/*",
+		"http://www.csbio.unc.edu/mcmillan/miniARM.html",
 		"activeTab"
 	]
 }
