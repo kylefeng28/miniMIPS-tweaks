@@ -8,7 +8,8 @@
 		{
 			"matches": [
 				"http://wwwx.cs.unc.edu/Courses/comp411-002-s17/tools/mips.html",
-				"http://www.csbio.unc.edu/mcmillan/miniARM.html"
+				"http://www.csbio.unc.edu/mcmillan/miniARM.html",
+				"http://www.csbio.unc.edu/mcmillan/miniMIPS.html"
 			],
 			"js": [ "codemirror.min.js", "mipsasm.js", "gas.js", "inject.js" ],
 			"css": [ "codemirror.min.css", "styles.css" ]
